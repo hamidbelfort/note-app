@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: iranSans;
+  src: url("/fonts/iran.woff");
+}
+@font-face {
+  font-family: shabnam;
+  src: url("/fonts/shabnam.woff");
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: iran, shabnam, sans-serif;
+}
